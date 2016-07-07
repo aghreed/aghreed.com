@@ -1,0 +1,235 @@
+@background: #e3d3d3;
+@white: #eee;
+@teal: #00A7C5;
+@orange: #FD6C14;
+@lime: #92D745;
+@green: #3b5e14;
+@red: #F82442;
+@blood: #d10723;
+@purple: #472C8A;
+@gold: #FFC620;
+@black: #06132B;
+@cyan: #00FFFF;
+
+body {
+  background-image: url('../images/ignasi_pattern_s.png');
+  background-repeat: repeat;
+}
+
+.opi-logo {
+  background-image: url('../images/opi_logo.svg');
+  width: 90%;
+  margin: 0 auto;
+}
+
+.bridget-logo {
+  background-image: url('../images/bridget_logo.png');
+  background-size: contain;
+}
+
+.tbg-logo {
+  background-image: url('../images/tbg_logo.svg');
+}
+
+.tornado-party-logo {
+  background-image: url('../images/peace_in_the_far_east.svg');
+}
+
+.logo {
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100%;
+}
+
+.header-container {
+  display: inline-block;
+  width: 100%;
+  height: 100px;
+  margin: 80px auto;
+  text-align: center;
+
+  .header-space {
+    display: inherit;
+    width: 30px;
+  }
+
+  .header-letter {
+    display: inherit;
+    width: 60px;
+    padding: 10px;
+
+    h1 {
+      color: @white;
+      font-size: 4em;
+    }
+
+    &.teal {
+      background-color: @teal;
+    }
+
+    &.orange {
+      background-color: @orange;
+    }
+
+    &.lime {
+      background-color: @lime;
+    }
+
+    &.green {
+      background-color: @green;
+    }
+
+    &.red {
+      background-color: @red;
+    }
+
+    &.blood {
+      background-color: @blood;
+    }
+
+    &.purple {
+      background-color: @purple;
+    }
+
+    &.gold {
+      background-color: @gold;
+    }
+
+    &.black {
+      background-color: @black;
+    }
+
+    &.cyan {
+      background-color: @cyan;
+    }
+  }
+
+}
+
+
+.content-container {
+
+  .column {
+
+    .reveal {
+
+      .content {
+        cursor: pointer;
+        height: 250px;
+
+        &.visible {
+          width:100%;
+
+          .column-button {
+            height: 100%;
+
+            &.code {
+              background-color: @teal;
+            }
+
+            &.freelance {
+              background-color: @orange;
+            }
+
+            &.employment {
+              background-color: @lime;
+            }
+
+            &.lady {
+              background-color: @red;
+            }
+
+            &.travel {
+              background-color: @black;
+            }
+
+            &.party {
+              background-color: @purple;
+            }
+
+            a.title{
+              position: relative;
+              top: 30px;
+              left: 30px;
+              font-size: 2.5em;
+              color: @white;
+            }
+          }
+        }
+
+        &.hidden {
+          .column-button {
+            height: 100%;
+
+            .logo-wrapper {
+              position: relative;
+              text-align: center;
+
+              &.icon-wrapper {
+                top: 100px;
+                padding-left: 40px;
+                padding-right: 40px;
+              }
+            }
+
+            &.code {
+              background-color: @purple;
+
+              .logo-wrapper {
+                padding-left: 0;
+                padding-right: 0;
+              }
+
+              .github.icon {
+                padding-top: 10px;
+                font-size: 15em;
+                color: @white;
+              }
+            }
+
+            &.freelance {
+              background-color: @white;
+            }
+
+            &.employment {
+              background-color: @black;
+            }
+
+            &.lady {
+              background-color: @cyan;
+            }
+
+            &.travel {
+              background-color: @gold;
+
+              .logo-wrapper {
+                padding-left: 0;
+                padding-right: 0;
+              }
+
+              .plane.icon {
+                padding-top: 20px;
+                font-size: 12em;
+                color: @white;
+              }
+            }
+
+            &.party {
+              background: none;
+            }
+
+            a.title {
+              position: relative;
+              top: 30px;
+              left: 30px;
+              font-size: 2.5em;
+              color: @white;
+            }
+          }
+        }
+
+      }
+    }
+  }
+
+}
