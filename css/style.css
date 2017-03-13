@@ -144,6 +144,15 @@ body {
 .content-container .column .reveal .content.hidden .column-button.employment {
   background-color: #06132B;
 }
+.content-container .column .reveal .content.hidden .column-button.employment .logo-wrapper {
+  padding-left: 0;
+  padding-right: 0;
+}
+.content-container .column .reveal .content.hidden .column-button.employment .help.icon {
+  padding-top: 20px;
+  font-size: 12em;
+  color: #eee;
+}
 .content-container .column .reveal .content.hidden .column-button.lady {
   background-color: #00FFFF;
 }
