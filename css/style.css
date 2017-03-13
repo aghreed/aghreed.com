@@ -17,6 +17,10 @@ body {
 .tornado-party-logo {
   background-image: url('../images/peace_in_the_far_east.svg');
 }
+.chips-logo {
+  background-image: url('../images/chips.jpg');
+  background-size: contain;
+}
 .logo {
   background-repeat: no-repeat;
   background-position: center;
@@ -100,6 +104,9 @@ body {
 .content-container .column .reveal .content.visible .column-button.party {
   background-color: #472C8A;
 }
+.content-container .column .reveal .content.visible .column-button.chips {
+  background-color: #3b5e14;
+}
 .content-container .column .reveal .content.visible .column-button a.title {
   position: relative;
   top: 30px;
@@ -154,6 +161,9 @@ body {
 }
 .content-container .column .reveal .content.hidden .column-button.party {
   background: none;
+}
+.content-container .column .reveal .content.hidden .column-button.chips {
+  background-color: #eee;
 }
 .content-container .column .reveal .content.hidden .column-button a.title {
   position: relative;
